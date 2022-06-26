@@ -1,0 +1,40 @@
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-gp{
+    padding-bottom: 30px;
+}
+
+.my-form label{
+    display: block;
+    margin-bottom: 20px;
+}
+.my-form input, .my-form textarea{
+    margin-bottom: 20px;
+    width: 80%;
+}
+.my-form input{
+    padding: 10px;
+    
+}
+
+button{
+    background-color: blue;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: color 0.5s ease;
+    
+}
+button:hover{
+    background-color: #fff;
+    color: blue;
+    cursor: pointer;
+}
+button:active{
+    background-color: green;
+    color: white;
+}
